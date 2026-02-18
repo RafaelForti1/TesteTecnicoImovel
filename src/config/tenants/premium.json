@@ -1,0 +1,137 @@
+{
+  "slug": "premium",
+  "name": "Premium Imobiliária",
+  "tagline": "Elegância em cada detalhe",
+  "allowedTags": ["Jardins", "Itaim Bibi", "Vila Nova Conceição", "Moema"],
+
+  "theme": {
+    "colorPrimary": "#B8860B",
+    "colorPrimaryLight": "#DAA520",
+    "colorPrimaryDark": "#8B6914",
+    "colorSecondary": "#1a1a2e",
+    "colorBackground": "#FAFAF5",
+    "colorSurface": "#FFFFFF",
+    "colorSurfaceHover": "#FFF8E7",
+    "colorText": "#1a1a2e",
+    "colorTextMuted": "#6B7280",
+    "colorTextOnPrimary": "#FFFFFF",
+    "colorBorder": "#E5DDD0",
+    "colorOverlay": "rgba(26, 26, 46, 0.6)",
+
+    "fontDisplay": "\"Playfair Display\", Georgia, serif",
+    "fontBody": "\"Lato\", \"Helvetica Neue\", sans-serif",
+    "fontSizeHero": "4rem",
+    "fontWeightHeading": "700",
+
+    "radiusSm": "0px",
+    "radiusMd": "2px",
+    "radiusLg": "4px",
+    "radiusCard": "2px",
+    "radiusButton": "2px",
+
+    "shadowCard": "0 2px 8px rgba(0,0,0,0.08)",
+    "shadowCardHover": "0 8px 24px rgba(184,134,11,0.15)",
+    "blurHeader": "12px",
+
+    "transitionDefault": "300ms"
+  },
+
+  "layout": {
+    "propertyCardLayout": "vertical",
+    "headerLogoPosition": "center",
+    "gridColumns": 3,
+    "showSecondaryCtaInHero": false,
+    "showServices": true,
+    "showStats": true,
+    "showTestimonials": true
+  },
+
+  "hero": {
+    "backgroundImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&h=1080&fit=crop&q=80",
+    "headline": "Imóveis de Alto Padrão",
+    "subheadline": "Descubra residências exclusivas nos melhores bairros de São Paulo",
+    "ctaText": "Explorar Catálogo",
+    "ctaLink": "/imoveis",
+    "gradientDirection": "to bottom"
+  },
+
+  "header": {
+    "logoSrc": "/images/premium/logo.svg",
+    "logoAlt": "Premium Imobiliária",
+    "navLinks": [
+      { "label": "Início", "href": "/" },
+      { "label": "Catálogo", "href": "/imoveis" },
+      { "label": "Experiência", "href": "#sobre" },
+      { "label": "Contato", "href": "#contato" }
+    ]
+  },
+
+  "services": {
+    "title": "Serviços Exclusivos",
+    "subtitle": "Uma experiência sob medida para clientes de alto padrão",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Concierge Premium",
+        "description": "Atendimento personalizado 24/7 para cada etapa da sua jornada"
+      },
+      {
+        "icon": "home",
+        "title": "Visitas Privadas",
+        "description": "Tours discretos e exclusivos com roteiros personalizados"
+      },
+      {
+        "icon": "search",
+        "title": "Curadoria de Imóveis",
+        "description": "Seleção criteriosa de propriedades únicas e raras"
+      },
+      {
+        "icon": "chart",
+        "title": "Gestão Patrimonial",
+        "description": "Assessoria de investimento e valorização de patrimônio"
+      }
+    ]
+  },
+
+  "stats": {
+    "title": "Excelência Comprovada",
+    "items": [
+      { "value": "300+", "label": "Imóveis de Luxo Vendidos" },
+      { "value": "R$ 3,5M+", "label": "Ticket Médio" },
+      { "value": "120", "label": "Listagens Exclusivas" },
+      { "value": "24/7", "label": "Atendimento Concierge" }
+    ]
+  },
+
+  "testimonials": {
+    "title": "Clientes que Confiam",
+    "items": [
+      {
+        "name": "Ana Beatriz",
+        "role": "Diretora Executiva",
+        "text": "Discrição, eficiência e curadoria impecável. A melhor experiência imobiliária que já tive.",
+        "rating": 5
+      },
+      {
+        "name": "Fernando Rocha",
+        "role": "Investidor",
+        "text": "Equipe altamente qualificada e foco absoluto em resultados. Recomendo sem hesitar.",
+        "rating": 5
+      },
+      {
+        "name": "Mariana Alves",
+        "role": "Arquiteta",
+        "text": "Portfólio selecionadíssimo e atendimento premium de ponta a ponta.",
+        "rating": 5
+      }
+    ]
+  },
+
+  "meta": {
+    "title": "Premium Imobiliária | Imóveis de Alto Padrão",
+    "description": "Encontre os melhores imóveis de luxo em São Paulo. Coberturas, apartamentos e casas nos bairros mais nobres.",
+    "ogTitle": "Premium Imobiliária",
+    "ogDescription": "Imóveis exclusivos nos bairros mais nobres de São Paulo",
+    "ogImage": "/images/premium/hero-bg.jpg"
+  }
+}

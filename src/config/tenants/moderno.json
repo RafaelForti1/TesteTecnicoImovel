@@ -1,0 +1,149 @@
+{
+  "slug": "moderno",
+  "name": "Moderno Imóveis",
+  "tagline": "Seu próximo lar, simplificado",
+  "allowedTags": ["Pinheiros", "Vila Madalena", "Perdizes", "Lapa", "Butantã"],
+
+  "theme": {
+    "colorPrimary": "#2563EB",
+    "colorPrimaryLight": "#3B82F6",
+    "colorPrimaryDark": "#1D4ED8",
+    "colorSecondary": "#0F172A",
+    "colorBackground": "#F8FAFC",
+    "colorSurface": "#FFFFFF",
+    "colorSurfaceHover": "#EFF6FF",
+    "colorText": "#0F172A",
+    "colorTextMuted": "#64748B",
+    "colorTextOnPrimary": "#FFFFFF",
+    "colorBorder": "#E2E8F0",
+    "colorOverlay": "rgba(15, 23, 42, 0.5)",
+
+    "fontDisplay": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "fontBody": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "fontSizeHero": "3.5rem",
+    "fontWeightHeading": "800",
+
+    "radiusSm": "6px",
+    "radiusMd": "12px",
+    "radiusLg": "16px",
+    "radiusCard": "16px",
+    "radiusButton": "12px",
+
+    "shadowCard": "0 1px 3px rgba(0,0,0,0.06)",
+    "shadowCardHover": "0 12px 32px rgba(37,99,235,0.12)",
+    "blurHeader": "16px",
+
+    "transitionDefault": "200ms"
+  },
+
+  "layout": {
+    "propertyCardLayout": "horizontal",
+    "headerLogoPosition": "left",
+    "gridColumns": 2,
+    "showSecondaryCtaInHero": true,
+    "showTestimonials": true,
+    "showTeam": false,
+    "showServices": true,
+    "showStats": true
+  },
+
+  "hero": {
+    "backgroundImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop&q=80",
+    "headline": "Encontre seu novo lar",
+    "subheadline": "Tecnologia e praticidade na busca do imóvel perfeito para você",
+    "ctaText": "Ver Imóveis",
+    "ctaLink": "/imoveis",
+    "secondaryCtaText": "Saiba Mais",
+    "secondaryCtaLink": "#sobre",
+    "gradientDirection": "to right",
+    "floatingElements": true,
+    "particles": true
+  },
+
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções completas para sua jornada imobiliária",
+    "items": [
+      {
+        "icon": "home",
+        "title": "Compra e Venda",
+        "description": "Assessoria completa na compra ou venda do seu imóvel com tecnologia de ponta"
+      },
+      {
+        "icon": "search",
+        "title": "Busca Personalizada",
+        "description": "Encontre o imóvel perfeito com nosso sistema inteligente de filtros"
+      },
+      {
+        "icon": "shield",
+        "title": "Segurança Digital",
+        "description": "Transações 100% seguras com certificação digital e blockchain"
+      },
+      {
+        "icon": "chart",
+        "title": "Análise de Mercado",
+        "description": "Dados em tempo real para decisões inteligentes"
+      }
+    ]
+  },
+
+  "stats": {
+    "title": "Números que Conquistam",
+    "items": [
+      { "value": "500+", "label": "Imóveis Vendidos" },
+      { "value": "98%", "label": "Clientes Satisfeitos" },
+      { "value": "15", "label": "Anos de Experiência" },
+      { "value": "24h", "label": "Atendimento Online" }
+    ]
+  },
+
+  "testimonials": {
+    "title": "O que Nossos Clientes Dizem",
+    "items": [
+      {
+        "name": "Carla Mendes",
+        "role": "Engenheira de Software",
+        "text": "Encontrei meu apartamento dos sonhos em apenas 3 dias! O processo foi super rápido e fácil.",
+        "rating": 5
+      },
+      {
+        "name": "Roberto Silva",
+        "role": "Empresário",
+        "text": "A tecnologia que eles usam é impressionante. Tudo digital, sem papelada. Recomendo muito!",
+        "rating": 5
+      },
+      {
+        "name": "Juliana Costa",
+        "role": "Designer",
+        "text": "Equipe super atenciosa e sistema intuitivo. A melhor experiência imobiliária que já tive.",
+        "rating": 5
+      }
+    ]
+  },
+
+  "team": {
+    "title": "Nossa Equipe Tech",
+    "subtitle": "Profissionais inovadores no mercado imobiliário",
+    "items": []
+  },
+
+  "header": {
+    "logoSrc": "/images/moderno/logo.svg",
+    "logoAlt": "Moderno Imóveis",
+    "navLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "Imóveis", "href": "/imoveis" },
+      { "label": "Serviços", "href": "#servicos" },
+      { "label": "Sobre", "href": "#sobre" },
+      { "label": "Contato", "href": "#contato" }
+    ]
+  },
+
+  "meta": {
+    "title": "Moderno Imóveis | Encontre Seu Novo Lar",
+    "description": "Plataforma moderna para busca de imóveis em São Paulo. Encontre apartamentos e casas com tecnologia.",
+    "ogTitle": "Moderno Imóveis",
+    "ogDescription": "Busca inteligente de imóveis com tecnologia de ponta",
+    "ogImage": "/images/moderno/hero-bg.jpg"
+  }
+}

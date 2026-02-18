@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: var(--tenant-color-primary);
+  --color-primary-light: var(--tenant-color-primary-light);
+  --color-primary-dark: var(--tenant-color-primary-dark);
+  --color-secondary: var(--tenant-color-secondary);
+  --color-background: var(--tenant-color-background);
+  --color-surface: var(--tenant-color-surface);
+  --color-surface-hover: var(--tenant-color-surface-hover);
+  --color-on-primary: var(--tenant-color-text-on-primary);
+  --color-muted: var(--tenant-color-text-muted);
+  --color-tenant-border: var(--tenant-color-border);
+
+  --font-display: var(--tenant-font-display);
+  --font-body: var(--tenant-font-body);
+
+  --radius-card: var(--tenant-radius-card);
+  --radius-button: var(--tenant-radius-button);
+  --radius-sm: var(--tenant-radius-sm);
+  --radius-md: var(--tenant-radius-md);
+  --radius-lg: var(--tenant-radius-lg);
+
+  --shadow-card: var(--tenant-shadow-card);
+  --shadow-card-hover: var(--tenant-shadow-card-hover);
+}
+
+@layer base {
+  :root {
+    --tenant-color-primary: #2563EB;
+    --tenant-color-primary-light: #3B82F6;
+    --tenant-color-primary-dark: #1D4ED8;
+    --tenant-color-secondary: #0F172A;
+    --tenant-color-background: #F8FAFC;
+    --tenant-color-surface: #FFFFFF;
+    --tenant-color-surface-hover: #EFF6FF;
+    --tenant-color-text: #0F172A;
+    --tenant-color-text-muted: #64748B;
+    --tenant-color-text-on-primary: #FFFFFF;
+    --tenant-color-border: #E2E8F0;
+    --tenant-color-overlay: rgba(15, 23, 42, 0.5);
+
+    --tenant-font-display: "Inter", "Helvetica Neue", sans-serif;
+    --tenant-font-body: "Inter", "Helvetica Neue", sans-serif;
+    --tenant-font-size-hero: 3.5rem;
+    --tenant-font-weight-heading: 800;
+
+    --tenant-radius-sm: 6px;
+    --tenant-radius-md: 12px;
+    --tenant-radius-lg: 16px;
+    --tenant-radius-card: 16px;
+    --tenant-radius-button: 12px;
+
+    --tenant-shadow-card: 0 1px 3px rgba(0,0,0,0.06);
+    --tenant-shadow-card-hover: 0 12px 32px rgba(37,99,235,0.12);
+    --tenant-blur-header: 16px;
+    --tenant-transition-default: 200ms;
+  }
+}
+
+@layer base {
+  body {
+    font-family: var(--tenant-font-body);
+    color: var(--tenant-color-text);
+    background-color: var(--tenant-color-background);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--tenant-font-display);
+    font-weight: var(--tenant-font-weight-heading);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

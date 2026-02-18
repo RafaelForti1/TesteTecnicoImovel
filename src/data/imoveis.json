@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1",
+    "titulo": "Cobertura Duplex com Vista Panorâmica",
+    "descricao": "Espetacular cobertura com 4 suítes, piscina privativa e vista 360 graus para o skyline de São Paulo.",
+    "bairroTag": "Jardins",
+    "preco": 4500000,
+    "imagem": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "4" },
+      { "icone": "🚗", "label": "Vagas", "valor": "3" },
+      { "icone": "📐", "label": "Área", "valor": "320m²" }
+    ]
+  },
+  {
+    "id": "2",
+    "titulo": "Apartamento Garden no Itaim",
+    "descricao": "Apartamento térreo com jardim privativo de 80m², acabamento premium e localização privilegiada.",
+    "bairroTag": "Itaim Bibi",
+    "preco": 3200000,
+    "imagem": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "3" },
+      { "icone": "🚗", "label": "Vagas", "valor": "2" },
+      { "icone": "📐", "label": "Área", "valor": "210m²" }
+    ]
+  },
+  {
+    "id": "3",
+    "titulo": "Penthouse com Terraço Gourmet",
+    "descricao": "Penthouse exclusivo com terraço gourmet, lareira e acabamentos de altíssimo padrão.",
+    "bairroTag": "Vila Nova Conceição",
+    "preco": 5800000,
+    "imagem": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "4" },
+      { "icone": "🚗", "label": "Vagas", "valor": "4" },
+      { "icone": "📐", "label": "Área", "valor": "450m²" }
+    ]
+  },
+  {
+    "id": "4",
+    "titulo": "Apartamento Clássico em Moema",
+    "descricao": "Elegante apartamento com ampla sala de estar, varanda gourmet e vista para o parque.",
+    "bairroTag": "Moema",
+    "preco": 2100000,
+    "imagem": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "3" },
+      { "icone": "🚗", "label": "Vagas", "valor": "2" },
+      { "icone": "📐", "label": "Área", "valor": "180m²" }
+    ]
+  },
+  {
+    "id": "5",
+    "titulo": "Loft Moderno em Pinheiros",
+    "descricao": "Loft contemporâneo com pé-direito duplo, integração total e design industrial.",
+    "bairroTag": "Pinheiros",
+    "preco": 980000,
+    "imagem": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "1" },
+      { "icone": "🚗", "label": "Vagas", "valor": "1" },
+      { "icone": "📐", "label": "Área", "valor": "85m²" }
+    ]
+  },
+  {
+    "id": "6",
+    "titulo": "Studio na Vila Madalena",
+    "descricao": "Studio inteligente com móveis planejados, rooftop com piscina e coworking no prédio.",
+    "bairroTag": "Vila Madalena",
+    "preco": 650000,
+    "imagem": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "1" },
+      { "icone": "🚗", "label": "Vagas", "valor": "1" },
+      { "icone": "📐", "label": "Área", "valor": "42m²" }
+    ]
+  },
+  {
+    "id": "7",
+    "titulo": "Apartamento Familiar em Perdizes",
+    "descricao": "Amplo apartamento para família, próximo a escolas e parques, com lazer completo.",
+    "bairroTag": "Perdizes",
+    "preco": 1350000,
+    "imagem": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "3" },
+      { "icone": "🚗", "label": "Vagas", "valor": "2" },
+      { "icone": "📐", "label": "Área", "valor": "120m²" }
+    ]
+  },
+  {
+    "id": "8",
+    "titulo": "Cobertura Duplex na Lapa",
+    "descricao": "Cobertura duplex com churrasqueira, piscina e vista para a cidade. Condomínio com lazer.",
+    "bairroTag": "Lapa",
+    "preco": 1600000,
+    "imagem": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "4" },
+      { "icone": "🚗", "label": "Vagas", "valor": "3" },
+      { "icone": "📐", "label": "Área", "valor": "220m²" }
+    ]
+  },
+  {
+    "id": "9",
+    "titulo": "Apartamento Compacto no Butantã",
+    "descricao": "Apartamento moderno próximo à USP, ideal para jovens profissionais. Lazer no rooftop.",
+    "bairroTag": "Butantã",
+    "preco": 520000,
+    "imagem": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "2" },
+      { "icone": "🚗", "label": "Vagas", "valor": "1" },
+      { "icone": "📐", "label": "Área", "valor": "55m²" }
+    ]
+  },
+  {
+    "id": "10",
+    "titulo": "Mansão Contemporânea nos Jardins",
+    "descricao": "Casa térrea com projeto arquitetônico premiado, piscina aquecida e paisagismo autoral.",
+    "bairroTag": "Jardins",
+    "preco": 12000000,
+    "imagem": "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&h=600&fit=crop",
+    "caracteristicas": [
+      { "icone": "🛏", "label": "Quartos", "valor": "5" },
+      { "icone": "🚗", "label": "Vagas", "valor": "6" },
+      { "icone": "📐", "label": "Área", "valor": "680m²" }
+    ]
+  }
+]

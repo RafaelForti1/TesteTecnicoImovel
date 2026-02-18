@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 40" fill="none">
+  <rect x="0" y="8" width="24" height="24" rx="2" fill="#B8860B"/>
+  <rect x="4" y="12" width="16" height="16" rx="1" fill="#DAA520"/>
+  <rect x="8" y="16" width="8" height="8" rx="0" fill="#B8860B"/>
+  <text x="32" y="28" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#1a1a2e">Premium</text>
+  <text x="140" y="28" font-family="Georgia, serif" font-size="14" font-weight="400" fill="#B8860B">Imobiliária</text>
+</svg>
